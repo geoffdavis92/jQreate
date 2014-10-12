@@ -170,7 +170,7 @@ window.doc = (function () {
     var doc = {
     	capp: function (tagName, id, parID, txt){ // Creates & appends elements, sets ID, initializes and sets text in textNodes
     		var body = document.getElementsByTagName('body')[0];
-    		body.setAttribute('id',"body");
+    		//body.setAttribute('id',"body");
 
     		var cVar = document.createElement(tagName);
     		if(id.length !== 0){
